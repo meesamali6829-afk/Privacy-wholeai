@@ -14,55 +14,17 @@
             background: #ffffff;
             padding: 32px 20px 60px;
         }
-        .container {
-            max-width: 680px;
-            margin: 0 auto;
-        }
-        .logo-row {
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            margin-bottom: 28px;
-        }
-        .logo-row span {
-            font-family: 'Syne', sans-serif;
-            font-size: 1.15rem;
-            font-weight: 800;
-            letter-spacing: 0.5px;
-        }
-        h1 {
-            font-family: 'Syne', sans-serif;
-            font-size: 1.6rem;
-            font-weight: 800;
-            margin-bottom: 6px;
-        }
-        .updated {
-            font-size: 0.78rem;
-            opacity: 0.5;
-            margin-bottom: 24px;
-        }
-        h4 {
-            font-family: 'Syne', sans-serif;
-            font-size: 1rem;
-            font-weight: 700;
-            margin: 26px 0 8px;
-            border-bottom: 1px solid #e0e0e0;
-            padding-bottom: 6px;
-        }
-        p {
-            font-size: 0.92rem;
-            opacity: 0.85;
-            margin-bottom: 10px;
-        }
+        .container { max-width: 680px; margin: 0 auto; }
+        .logo-row { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+        .logo-row span { font-family: 'Syne', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px; }
+        h1 { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 6px; }
+        .updated { font-size: 0.78rem; opacity: 0.5; margin-bottom: 24px; }
+        h4 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin: 26px 0 8px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; }
+        p { font-size: 0.92rem; opacity: 0.85; margin-bottom: 10px; }
+        ul { margin: 8px 0 10px 20px; }
+        li { font-size: 0.92rem; opacity: 0.85; margin-bottom: 6px; }
         strong { font-weight: 700; }
-        .footer {
-            margin-top: 40px;
-            padding-top: 16px;
-            border-top: 1px solid #e0e0e0;
-            font-size: 0.75rem;
-            opacity: 0.5;
-            text-align: center;
-        }
+        .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e0e0e0; font-size: 0.75rem; opacity: 0.5; text-align: center; }
     </style>
 </head>
 <body>
@@ -84,33 +46,47 @@
         <h1>Privacy Policy</h1>
         <div class="updated">Last updated: June 2026</div>
 
-        <p>Welcome to Whole AI. We prioritize your privacy above all else. Our platform is built on a <strong>Zero-Knowledge Architecture</strong>, ensuring that your intellectual property remains exclusively yours.</p>
+        <p>Welcome to Whole AI. This Privacy Policy explains what information we collect, how we use it, and how we protect it when you use our app.</p>
 
-        <h4>1. Code & Content Data</h4>
-        <p>We do <strong>NOT</strong> permanently store your source code, prompts, or generated content on our servers. When you use a feature such as the modernizer, bug hunter, or AI builder, your input is processed in volatile memory and discarded immediately after the AI response is generated.</p>
+        <h4>1. Information We Collect</h4>
+        <p>When you create an account, we collect the following information:</p>
+        <ul>
+            <li><strong>Name</strong> — to personalize your experience</li>
+            <li><strong>Email address</strong> — used as your account identifier and for login</li>
+            <li><strong>Password</strong> — securely handled through Firebase Authentication</li>
+            <li><strong>Profile photo (optional)</strong> — if you choose to upload one</li>
+        </ul>
 
-        <h4>2. Account Information</h4>
-        <p>When you create an account, we collect your name, email address, and a securely handled password to provide login and personalization features. This information is stored locally on your device and is not sold or shared with third parties.</p>
+        <h4>2. How Your Data Is Stored</h4>
+        <p>Your account information, subscription/plan details, and chat history are securely stored using <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore). This allows your account and data to remain accessible even if you reinstall the app or switch devices, as long as you log in with the same email and password.</p>
+        <p>Some app preferences and temporary session data may also be cached locally on your device for performance purposes.</p>
 
-        <h4>3. Gmail Integration (Email Agent)</h4>
-        <p>If you choose to connect your Gmail account, Whole AI requests permission to send emails on your behalf using the <strong>gmail.send</strong> scope only. We do not read, store, or have access to your inbox, contacts, or any other Gmail data. Access tokens are used solely to send the emails you compose within the app and are not stored on our servers.</p>
+        <h4>3. Code & Generated Content</h4>
+        <p>When you use features such as code review, modernizer, bug hunter, or AI builder, your input (code or prompts) is sent to our processing servers to generate a response. Your conversation history and generated outputs are saved to your account so you can access them later, and are linked only to your account.</p>
 
-        <h4>4. Local Storage</h4>
-        <p>Chat history, scheduled emails, app preferences, and project data are stored locally on your device. This data is not transmitted to or stored on our servers, and will be removed if you uninstall the app or clear app data.</p>
+        <h4>4. Advertising (Google AdMob)</h4>
+        <p>Whole AI uses <strong>Google AdMob</strong> to display optional reward-based video ads, which allow you to earn extra credits. AdMob may collect device identifiers and usage data in accordance with Google's own privacy and advertising policies. Watching ads is entirely optional.</p>
 
         <h4>5. Encryption & Security</h4>
-        <p>All data transmitted between the app and our servers is protected using industry-standard 256-bit SSL/TLS encryption.</p>
+        <p>All data transmitted between the app and our servers, including Firebase services, is protected using industry-standard SSL/TLS encryption.</p>
 
         <h4>6. Third-Party Services</h4>
-        <p>Whole AI may use third-party services (such as Google Sign-In, Gmail API, and advertising networks for reward-based credits) which operate under their own privacy policies. We encourage you to review their respective policies.</p>
+        <p>Whole AI uses the following third-party services, which operate under their own privacy policies:</p>
+        <ul>
+            <li><strong>Google Firebase</strong> (Authentication & Firestore Database)</li>
+            <li><strong>Google AdMob</strong> (reward-based advertising)</li>
+        </ul>
 
-        <h4>7. Children's Privacy</h4>
+        <h4>7. Data Deletion</h4>
+        <p>You can permanently delete your account and all associated data at any time from the Profile page within the app by selecting "Delete My Account."</p>
+
+        <h4>8. Children's Privacy</h4>
         <p>Whole AI is not directed at children under the age of 13, and we do not knowingly collect personal information from children.</p>
 
-        <h4>8. Changes to This Policy</h4>
+        <h4>9. Changes to This Policy</h4>
         <p>We may update this Privacy Policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
 
-        <h4>9. Contact Us</h4>
+        <h4>10. Contact Us</h4>
         <p>If you have any questions about this Privacy Policy, please contact us through the app's support channel.</p>
 
         <div class="footer">© 2026 Whole AI. All rights reserved.</div>
