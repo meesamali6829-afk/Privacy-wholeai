@@ -130,9 +130,10 @@
 
   <section id="ai">
     <h2>4. AI processing of your content</h2>
-    <p>Whole AI is powered by third-party AI models. When you use an AI feature, the content you submit (your prompt, your code, any file or image you attach, and the relevant conversation context) is sent to our AI provider, <b>Google (Gemini API)</b>, so that a response can be generated and sent back to you.</p>
+    <p>Whole AI is powered by third-party AI models. When you use an AI feature, the content you submit (your prompt, your code, any file or image you attach, and the relevant conversation context) is sent to our AI providers, <b>Gemini</b> and <b>DeepSeek</b>, so that a response can be generated and sent back to you.</p>
     <ul>
       <li>We send only what is needed to answer your request.</li>
+      <li>To test and fix code, some features run the code you submit in an isolated, secure sandbox provided by <b>Daytona</b>.</li>
       <li>Do not submit passwords, API keys, private keys, payment card numbers, government ID numbers or other highly sensitive information in your prompts or code.</li>
       <li>AI output can be incorrect, incomplete or insecure. Always review generated code and content before you use it, especially in production, security, financial or legal contexts.</li>
       <li>Credits are deducted only after a successful response.</li>
@@ -160,7 +161,8 @@
     <table>
       <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
       <tr><td>Google (Sign-In, Firebase / Google Cloud)</td><td>Sign-in, authentication, database and storage of account data</td><td>Name, email, profile photo, plan, credits, chats, projects</td></tr>
-      <tr><td>Google (Gemini API)</td><td>Generating AI responses</td><td>Prompts, code, files and images you submit</td></tr>
+      <tr><td>Gemini and DeepSeek</td><td>Generating AI responses</td><td>Prompts, code, files and images you submit</td></tr>
+      <tr><td>Daytona</td><td>Running generated code in a secure sandbox to test and fix it</td><td>Code and files you submit, and the output of running them</td></tr>
       <tr><td>Google Play</td><td>Billing for purchases in the Android app</td><td>Purchase confirmation and token</td></tr>
       <tr><td>NOWPayments</td><td>Crypto payments on the website and web app</td><td>Email, plan, amount, transaction details</td></tr>
       <tr><td>Vercel</td><td>Hosting the website, API and published sites; custom domain setup</td><td>Request data, IP address, published site files, custom domain names</td></tr>
