@@ -1,95 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - Whole AI</title>
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'DM Sans', sans-serif;
-            line-height: 1.7;
-            color: #1a1a1a;
-            background: #ffffff;
-            padding: 32px 20px 60px;
-        }
-        .container { max-width: 680px; margin: 0 auto; }
-        .logo-row { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
-        .logo-row span { font-family: 'Syne', sans-serif; font-size: 1.15rem; font-weight: 800; letter-spacing: 0.5px; }
-        h1 { font-family: 'Syne', sans-serif; font-size: 1.6rem; font-weight: 800; margin-bottom: 6px; }
-        .updated { font-size: 0.78rem; opacity: 0.5; margin-bottom: 24px; }
-        h4 { font-family: 'Syne', sans-serif; font-size: 1rem; font-weight: 700; margin: 26px 0 8px; border-bottom: 1px solid #e0e0e0; padding-bottom: 6px; }
-        p { font-size: 0.92rem; opacity: 0.85; margin-bottom: 10px; }
-        ul { margin: 8px 0 10px 20px; }
-        li { font-size: 0.92rem; opacity: 0.85; margin-bottom: 6px; }
-        strong { font-weight: 700; }
-        .footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid #e0e0e0; font-size: 0.75rem; opacity: 0.5; text-align: center; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy — Whole AI</title>
+<meta name="description" content="How Whole AI collects, uses, stores and protects your information, including the Whole AI Android app, website and installable web app.">
+<link rel="canonical" href="https://www.wholeai.space/privacy">
+<link rel="icon" href="https://www.wholeai.space/favicon-v2-512.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{min-height:100%;background:linear-gradient(to bottom,#f0e8ff 0%,#f8f4ff 8%,#ffffff 22%,#ffffff 42%,#dde8ff 62%,#c4b5fd 78%,#f472b6 91%,#ec4899 100%) no-repeat;background-size:100% 100%;-webkit-text-size-adjust:100%}
+  body{min-height:100vh;font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;color:#000;background:transparent;line-height:1.7;font-size:15.5px;font-weight:500;-webkit-font-smoothing:antialiased;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+  .wrap{max-width:780px;margin:0 auto;padding:28px 20px 70px}
+  .top{display:flex;align-items:center;gap:10px;margin-bottom:26px}
+  .top a{color:#000;text-decoration:none;font-weight:800;font-size:1.05rem;letter-spacing:-.2px;display:flex;align-items:center;gap:8px}
+  .logo{width:30px;height:30px;border-radius:9px;background:#000;color:#fff;display:flex;align-items:center;justify-content:center;font-size:18px;line-height:1}
+  h1{font-size:2rem;line-height:1.2;font-weight:800;letter-spacing:-.6px;margin-bottom:8px;color:#000}
+  .meta{font-size:.85rem;font-weight:600;color:#000;opacity:.75;margin-bottom:22px}
+  .lead{font-size:1rem;font-weight:600;margin-bottom:22px;color:#000}
+  .card{background:rgba(255,255,255,.72);border:1.5px solid rgba(0,0,0,.14);border-radius:18px;padding:20px 20px;margin-bottom:16px;backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px)}
+  .toc h2{font-size:.78rem;letter-spacing:1.2px;text-transform:uppercase;margin-bottom:10px}
+  .toc ol{padding-left:20px}
+  .toc li{margin:3px 0}
+  .toc a{color:#000;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+  section{margin-top:26px;scroll-margin-top:16px}
+  h2{font-size:1.2rem;font-weight:800;letter-spacing:-.3px;margin-bottom:10px;color:#000;padding-bottom:8px;border-bottom:1.5px solid rgba(0,0,0,.18)}
+  h3{font-size:1rem;font-weight:700;margin:16px 0 6px;color:#000}
+  p{margin:8px 0;color:#000}
+  ul{margin:8px 0 8px 22px}
+  li{margin:5px 0;color:#000}
+  b,strong{font-weight:800}
+  a{color:#000}
+  .table-wrap{overflow-x:auto;margin:10px 0}
+  table{border-collapse:collapse;width:100%;min-width:560px;background:rgba(255,255,255,.75);border:1.5px solid rgba(0,0,0,.2);border-radius:10px;overflow:hidden}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid rgba(0,0,0,.15);vertical-align:top;font-size:.9rem;color:#000}
+  th{background:rgba(0,0,0,.06);font-weight:800}
+  .note{background:rgba(255,255,255,.8);border-left:4px solid #000;padding:12px 14px;border-radius:8px;margin:12px 0;font-weight:600}
+  .foot{margin-top:40px;font-size:.85rem;font-weight:600;opacity:.8;text-align:center}
+  @media(max-width:520px){h1{font-size:1.65rem}.wrap{padding:22px 16px 60px}.card{padding:16px}}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="logo-row">
-            <svg width="28" height="28" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="50" cy="50" r="46" stroke="#1a1a1a" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-                <path d="M50 18 L74 31 L74 57 L50 70 L26 57 L26 31 Z" stroke="#1a1a1a" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
-                <g stroke="#1a1a1a" stroke-width="2.5" stroke-linecap="round">
-                    <line x1="50" y1="18" x2="50" y2="70"/>
-                    <line x1="26" y1="31" x2="74" y2="57"/>
-                    <line x1="74" y1="31" x2="26" y2="57"/>
-                </g>
-                <circle cx="50" cy="44" r="4.5" fill="#1a1a1a"/>
-            </svg>
-            <span>Whole AI</span>
-        </div>
+<div class="wrap">
 
-        <h1>Privacy Policy</h1>
-        <div class="updated">Last updated: June 2026</div>
+  <div class="top">
+    <a href="https://www.wholeai.space/"><span class="logo">&#9792;</span><span>Whole AI</span></a>
+  </div>
 
-        <p>Welcome to Whole AI. This Privacy Policy explains what information we collect, how we use it, and how we protect it when you use our app.</p>
+  <h1>Privacy Policy</h1>
+  <div class="meta">Effective date: October 11, 2026 &nbsp;·&nbsp; Last updated: October 11, 2026</div>
 
-        <h4>1. Information We Collect</h4>
-        <p>When you create an account, we collect the following information:</p>
-        <ul>
-            <li><strong>Name</strong> — to personalize your experience</li>
-            <li><strong>Email address</strong> — used as your account identifier and for login</li>
-            <li><strong>Password</strong> — securely handled through Firebase Authentication</li>
-            <li><strong>Profile photo (optional)</strong> — if you choose to upload one</li>
-        </ul>
+  <p class="lead">This Privacy Policy explains what information Whole AI collects, why we collect it, how we use and protect it, and the choices you have. It applies to the Whole AI website (wholeai.space), the installable web app, and the Whole AI Android app available on Google Play (together, the "Service").</p>
 
-        <h4>2. How Your Data Is Stored</h4>
-        <p>Your account information, subscription/plan details, and chat history are securely stored using <strong>Google Firebase</strong> (Firebase Authentication and Cloud Firestore). This allows your account and data to remain accessible even if you reinstall the app or switch devices, as long as you log in with the same email and password.</p>
-        <p>Some app preferences and temporary session data may also be cached locally on your device for performance purposes.</p>
+  <div class="card toc">
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#about">About Whole AI</a></li>
+      <li><a href="#collect">Information we collect</a></li>
+      <li><a href="#use">How we use your information</a></li>
+      <li><a href="#ai">AI processing of your content</a></li>
+      <li><a href="#payments">Payments and subscriptions</a></li>
+      <li><a href="#sharing">Third-party services and data sharing</a></li>
+      <li><a href="#sites">Websites you publish</a></li>
+      <li><a href="#storage">Device storage, cookies and caching</a></li>
+      <li><a href="#abuse">Fraud and abuse prevention</a></li>
+      <li><a href="#retention">Data retention</a></li>
+      <li><a href="#delete">Deleting your account and data</a></li>
+      <li><a href="#rights">Your rights and choices</a></li>
+      <li><a href="#security">Security</a></li>
+      <li><a href="#children">Children's privacy</a></li>
+      <li><a href="#transfers">International data transfers</a></li>
+      <li><a href="#android">Android app information</a></li>
+      <li><a href="#changes">Changes to this policy</a></li>
+      <li><a href="#contact">Contact us</a></li>
+    </ol>
+  </div>
 
-        <h4>3. Code & Generated Content</h4>
-        <p>When you use features such as code review, modernizer, bug hunter, or AI builder, your input (code or prompts) is sent to our processing servers to generate a response. Your conversation history and generated outputs are saved to your account so you can access them later, and are linked only to your account.</p>
+  <section id="about">
+    <h2>1. About Whole AI</h2>
+    <p>Whole AI is an AI-powered coding and building workspace. It helps developers, founders and creators review code, find and fix bugs, modernize code, scan for security issues, ask coding questions, and build websites, mobile apps and full-stack projects from a phone or computer. You sign in with your Google account, and your plan, credits and saved work are stored in your account.</p>
+    <p>Whole AI is operated by the Whole AI team. If you have any question about this policy, write to <a href="mailto:wholeaisupport@gmail.com">wholeaisupport@gmail.com</a>.</p>
+  </section>
 
-        <h4>4. Advertising (Google AdMob)</h4>
-        <p>Whole AI uses <strong>Google AdMob</strong> to display optional reward-based video ads, which allow you to earn extra credits. AdMob may collect device identifiers and usage data in accordance with Google's own privacy and advertising policies. Watching ads is entirely optional.</p>
+  <section id="collect">
+    <h2>2. Information we collect</h2>
 
-        <h4>5. Encryption & Security</h4>
-        <p>All data transmitted between the app and our servers, including Firebase services, is protected using industry-standard SSL/TLS encryption.</p>
+    <h3>2.1 Information you provide or that comes from your Google account</h3>
+    <ul>
+      <li><b>Account information:</b> when you choose "Continue with Google", we receive your name, email address and profile photo (if available) from Google. We use these to create and identify your account. We never receive your Google password.</li>
+      <li><b>Profile data:</b> if you upload or change a profile photo or edit your profile, we store that information in your account.</li>
+      <li><b>Content you submit:</b> the code, prompts, messages, files and images you enter or attach to features such as Code Review, Bug Hunter, Everything AI, AI Assistant, Build Web, Build App and the Full Stack Builder.</li>
+      <li><b>Support messages:</b> anything you send us when you contact support.</li>
+    </ul>
 
-        <h4>6. Third-Party Services</h4>
-        <p>Whole AI uses the following third-party services, which operate under their own privacy policies:</p>
-        <ul>
-            <li><strong>Google Firebase</strong> (Authentication & Firestore Database)</li>
-            <li><strong>Google AdMob</strong> (reward-based advertising)</li>
-        </ul>
+    <h3>2.2 Information created while you use the Service</h3>
+    <ul>
+      <li><b>Plan, credits and usage:</b> your current plan (Free, Pro or Heavy Pro), credit balance, plan expiry date, daily and bonus credits, and which features you used, so we can run billing and limits correctly.</li>
+      <li><b>Saved chats and projects:</b> your chat history, generated code and projects, so you can come back to them.</li>
+      <li><b>Published sites:</b> if you publish a website, we store its files, its public name (the part before .wholeai.space, for example yourname.wholeai.space), and any custom domain you connect.</li>
+      <li><b>Transaction details:</b> the plan you bought, the amount, the time and the status of the payment (see Section 5).</li>
+    </ul>
 
-        <h4>7. Data Deletion</h4>
-        <p>You can permanently delete your account and all associated data at any time from the Profile page within the app by selecting "Delete My Account."</p>
+    <h3>2.3 Technical information</h3>
+    <ul>
+      <li><b>Device identifier:</b> a randomly generated identifier stored on your device, used for abuse prevention (see Section 9).</li>
+      <li><b>IP address:</b> processed by our servers to deliver the Service and to prevent abuse. We store it only as described in Section 9.</li>
+      <li><b>Local data on your device:</b> chat history, preferences and sign-in state kept in your browser or app storage (see Section 8).</li>
+    </ul>
 
-        <h4>8. Children's Privacy</h4>
-        <p>Whole AI is not directed at children under the age of 13, and we do not knowingly collect personal information from children.</p>
+    <div class="note">We do not collect your precise location, contacts, microphone recordings, SMS, call logs or photos from your gallery unless you yourself choose to attach a file or image inside the app.</div>
+  </section>
 
-        <h4>9. Changes to This Policy</h4>
-        <p>We may update this Privacy Policy from time to time. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+  <section id="use">
+    <h2>3. How we use your information</h2>
+    <ul>
+      <li>To create your account, sign you in and keep you signed in.</li>
+      <li>To process your requests with AI and return a response, build result or preview.</li>
+      <li>To manage your plan, credits, daily limits, subscription period and billing.</li>
+      <li>To save your chats, projects and published sites so they are available across sessions and devices.</li>
+      <li>To send you service emails, such as a welcome message and subscription confirmations.</li>
+      <li>To respond to support requests.</li>
+      <li>To detect, prevent and investigate fraud, abuse, policy violations and technical problems.</li>
+      <li>To keep the Service secure, reliable and working properly, and to fix errors.</li>
+      <li>To meet legal, tax and accounting obligations.</li>
+    </ul>
+    <p><b>We do not sell your personal information. We do not rent it or trade it for marketing. We do not show third-party advertising in Whole AI.</b></p>
+  </section>
 
-        <h4>10. Contact Us</h4>
-        <p>If you have any questions about this Privacy Policy, please contact us through the app's support channel.</p>
+  <section id="ai">
+    <h2>4. AI processing of your content</h2>
+    <p>Whole AI is powered by third-party AI models. When you use an AI feature, the content you submit (your prompt, your code, any file or image you attach, and the relevant conversation context) is sent to our AI provider, <b>Google (Gemini API)</b>, so that a response can be generated and sent back to you.</p>
+    <ul>
+      <li>We send only what is needed to answer your request.</li>
+      <li>Do not submit passwords, API keys, private keys, payment card numbers, government ID numbers or other highly sensitive information in your prompts or code.</li>
+      <li>AI output can be incorrect, incomplete or insecure. Always review generated code and content before you use it, especially in production, security, financial or legal contexts.</li>
+      <li>Credits are deducted only after a successful response.</li>
+    </ul>
+    <p><b>Reporting harmful or incorrect AI output:</b> if an AI response is offensive, unsafe, misleading or otherwise inappropriate, please tell us at <a href="mailto:wholeaisupport@gmail.com">wholeaisupport@gmail.com</a> with a short description, and we will review it.</p>
+  </section>
 
-        <div class="footer">© 2026 Whole AI. All rights reserved.</div>
+  <section id="payments">
+    <h2>5. Payments and subscriptions</h2>
+    <p>Paid plans (Pro and Heavy Pro) give you more credits and extra features. How you pay depends on where you use Whole AI:</p>
+
+    <h3>5.1 Whole AI Android app from Google Play</h3>
+    <p>Purchases made inside the Android app from Google Play are processed by <b>Google Play Billing</b>. Google handles your payment method and billing details under Google's own terms and privacy policy. We do not receive or store your card number or payment method. We receive only the purchase confirmation (for example, which plan was bought, the purchase token and its status) that we need to activate, renew or end your plan. Subscriptions can be managed or cancelled in the Google Play Store under "Payments &amp; subscriptions".</p>
+
+    <h3>5.2 Whole AI website and installable web app (outside Google Play)</h3>
+    <p>Paid plans bought on the website or the installable web app are paid in cryptocurrency (USDT on the TRC20 network) and processed through <b>NOWPayments</b>. We create a unique payment for each purchase and store your email, the selected plan, the amount and the transaction details so that we can verify the payment and activate your plan. We do not store your wallet keys, seed phrases or card details. NOWPayments' own terms and privacy policy also apply to that payment.</p>
+
+    <p>Plans last for the period shown at purchase and then return to the Free plan unless renewed. Please see the refund terms shown at checkout for your platform.</p>
+  </section>
+
+  <section id="sharing">
+    <h2>6. Third-party services and data sharing</h2>
+    <p>We share information only with the service providers we need to operate Whole AI. Each provider handles data under its own terms and privacy practices.</p>
+    <div class="table-wrap">
+    <table>
+      <tr><th>Provider</th><th>Purpose</th><th>Data involved</th></tr>
+      <tr><td>Google (Sign-In, Firebase / Google Cloud)</td><td>Sign-in, authentication, database and storage of account data</td><td>Name, email, profile photo, plan, credits, chats, projects</td></tr>
+      <tr><td>Google (Gemini API)</td><td>Generating AI responses</td><td>Prompts, code, files and images you submit</td></tr>
+      <tr><td>Google Play</td><td>Billing for purchases in the Android app</td><td>Purchase confirmation and token</td></tr>
+      <tr><td>NOWPayments</td><td>Crypto payments on the website and web app</td><td>Email, plan, amount, transaction details</td></tr>
+      <tr><td>Vercel</td><td>Hosting the website, API and published sites; custom domain setup</td><td>Request data, IP address, published site files, custom domain names</td></tr>
+      <tr><td>Brevo</td><td>Sending service emails (welcome, subscription confirmations)</td><td>Your name, email address and the email content</td></tr>
+    </table>
     </div>
+    <p>We may also disclose information if required by law, a court order or a valid legal request, to protect the rights, safety and security of our users or the Service, or in connection with a merger, acquisition or sale of assets (in which case we will tell you before your data becomes subject to a different privacy policy).</p>
+  </section>
+
+  <section id="sites">
+    <h2>7. Websites you publish</h2>
+    <p>If you publish a website with Whole AI, <b>the published site is public</b>. Anyone with its link (for example yourname.wholeai.space) or its custom domain can view it. Do not include private or sensitive information in a site you publish. Custom domains are available on paid plans; if a plan expires, visitors may be redirected to your free link, and your site and its data remain until you delete them. You are responsible for the content you publish.</p>
+  </section>
+
+
+  <section id="storage">
+    <h2>8. Device storage, cookies and caching</h2>
+    <ul>
+      <li><b>Local storage:</b> Whole AI keeps some data on your device, such as chat history, feature preferences, sign-in state and a device identifier, so the app works smoothly across sessions. You can clear it from your browser or app settings, but you may be signed out.</li>
+      <li><b>Service worker cache:</b> the installable web app and Android app cache the home page and app icons so they open faster. API responses, account data, credits and plans are never cached.</li>
+      <li><b>Cookies:</b> we use only the cookies or similar technologies necessary to run the Service and keep you signed in. We do not use advertising or cross-site tracking cookies.</li>
+    </ul>
+  </section>
+
+  <section id="abuse">
+    <h2>9. Fraud and abuse prevention</h2>
+    <p>To protect the free daily credits from abuse, one device and one network are allowed to create only one free Whole AI account. To enforce this, we store a device identifier and the IP address together with the email of the account created from that device or network. We use this information only to prevent fraud and abuse and to keep the Service fair for everyone.</p>
+  </section>
+
+  <section id="retention">
+    <h2>10. Data retention</h2>
+    <p>We keep your account data for as long as your account is active. If you delete your account, your personal data is removed from our active systems. Some records, such as payment and transaction history, may be kept for as long as needed to meet legal, tax, accounting or fraud-prevention requirements. Backups are removed in the normal course of our backup cycle.</p>
+  </section>
+
+  <section id="delete">
+    <h2>11. Deleting your account and data</h2>
+    <p>You can permanently delete your account and associated data at any time:</p>
+    <ul>
+      <li><b>Inside the app or website:</b> open the menu, go to <b>Profile</b>, and tap <b>Delete My Account</b>. You will be asked to confirm with the same Google account.</li>
+      <li><b>By email:</b> if you cannot access the app, send a deletion request from your registered email address to <a href="mailto:wholeaisupport@gmail.com">wholeaisupport@gmail.com</a> with the subject "Delete my Whole AI account". We will verify the request and delete your account and associated data.</li>
+    </ul>
+    <p>When your account is deleted, your profile, plan and credit data, chats and projects are removed from our active systems, subject to the retention exceptions in Section 10. Deleting your account does not cancel a Google Play subscription; please cancel it in Google Play as well.</p>
+  </section>
+
+  <section id="rights">
+    <h2>12. Your rights and choices</h2>
+    <p>Depending on where you live, you may have the right to access, correct, delete, export or restrict the use of your personal data, to object to certain processing, and to withdraw consent. You can:</p>
+    <ul>
+      <li>update your profile information from the Profile page at any time;</li>
+      <li>delete your account as described in Section 11;</li>
+      <li>contact us at <a href="mailto:wholeaisupport@gmail.com">wholeaisupport@gmail.com</a> for any other request about your data.</li>
+    </ul>
+    <p>We will respond to valid requests within a reasonable time, and as required by applicable law.</p>
+  </section>
+
+  <section id="security">
+    <h2>13. Security</h2>
+    <p>Your account data is stored using Google Cloud, which applies industry-standard security practices. Data sent between your device and our servers is encrypted using SSL/TLS. Access to account data is restricted. No method of transmission or storage is completely secure, so we cannot guarantee absolute security, but we work to protect your information and fix problems quickly.</p>
+  </section>
+
+  <section id="children">
+    <h2>14. Children's privacy</h2>
+    <p>Whole AI is not directed to children and is not intended for anyone under the age of 13 (or the minimum age required in your country). We do not knowingly collect personal information from children. If you believe a child has given us personal information, contact us and we will delete it.</p>
+  </section>
+
+  <section id="transfers">
+    <h2>15. International data transfers</h2>
+    <p>Whole AI and its service providers operate in several countries. Your information may be processed and stored in countries other than your own, which may have different data protection laws. By using the Service, you understand that your information may be transferred in this way, and we rely on our providers' safeguards to protect it.</p>
+  </section>
+
+  <section id="android">
+    <h2>16. Android app information</h2>
+    <p>The Whole AI Android app is a wrapper that opens the Whole AI web app on your device in a full-screen view, using the same account, the same data and the same practices described in this policy. The app uses internet access to work. It does not request access to your contacts, location, camera, microphone or storage on its own. Sign-in uses your Google account, and purchases inside the Android app use Google Play Billing.</p>
+  </section>
+
+  <section id="changes">
+    <h2>17. Changes to this policy</h2>
+    <p>We may update this Privacy Policy from time to time to reflect changes in our practices, our features or the law. When we make changes, we will update the "Last updated" date at the top of this page. If a change is significant, we will tell you in the app or by email. Continuing to use the Service after a change means you accept the updated policy.</p>
+  </section>
+
+  <section id="contact">
+    <h2>18. Contact us</h2>
+    <p>If you have any questions about this Privacy Policy or about how your data is handled, contact us:</p>
+    <p><b>Whole AI Support</b><br>Email: <a href="mailto:wholeaisupport@gmail.com">wholeaisupport@gmail.com</a><br>Website: <a href="https://www.wholeai.space/">www.wholeai.space</a></p>
+  </section>
+
+  <div class="foot">© 2026 Whole AI. All rights reserved.<br><a href="https://www.wholeai.space/">Back to Whole AI</a></div>
+
+</div>
 </body>
 </html>
